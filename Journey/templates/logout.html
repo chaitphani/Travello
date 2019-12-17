@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title> Logout </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/logout_styles.css' %}">
+</head>
+<body bgcolor=#9CCC65 >
+    <h1> Thank You, Visit again</h1>
+    <form action='logout' method='POST'>
+        {% csrf_token %}
+    </form>
+</body>
+</html>

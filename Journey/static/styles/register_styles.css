@@ -1,0 +1,112 @@
+body {
+    background-image: url('https://www.techrotation.com/wp-content/uploads/2017/06/abstract-animated-computer-script-programming-code-as-technology-background-1920x1080-full-hd-footage_qktlwvii__F0000.png');
+    /* The image used */
+    height: 500px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-shadow: 2px 2px rgb(245, 113, 25);
+    font-variant-ligatures: historical-ligatures;
+    letter-spacing: 12px;
+    word-spacing: 15px;
+    margin-left: 200px;
+}
+
+h2 {
+    color: rgb(241, 223, 53);
+    font-size: 12px;
+    font-family: 'Indie Flower', cursive;
+    margin: 0px 1300px 0px 0px;
+    letter-spacing: 8px;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
+
+form {
+    color: #000000;
+    font-size: 17px;
+    font-style: Italic;
+    background-color: rgb(233, 42, 233);
+    margin: 0px 1100px 0px 0px;
+    letter-spacing: 2px;
+}
+
+button {
+    color: rgb(53, 233, 83);
+    font-size: 14px;
+    background-color: rgb(228, 55, 55);
+}
+
+#mini {
+    color: rgb(238, 176, 176);
+    font-size: 14px;
+}
+
+.palace {
+    border-color: white;
+    border-width: 5px;
+    border-style: inset;
+    border-radius: 50%;
+    background: linear-gradient(red, green);
+}
+
+.we_can {
+    background-color: #26A69A;
+    margin: 0px 1100px 0px 0px;
+    border-color: white;
+    border-width: 5px;
+    border-style: double;
+}
+
+.footer_contact_title {
+    margin: 0px 1100px 0px 0px;
+}
+
+.footer_contact_list {
+    margin: 0px 0px 0px 0px;
+}
+
+a[target=_blank] {
+    background-color: rgb(243, 243, 200);
+}
+
+/* unvisited link */
+a:link {
+    color: yellow;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  

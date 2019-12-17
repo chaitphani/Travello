@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>S.no</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Username</th>
+            <th>Mobile</th>
+            <th>Password</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        {% for vis in hat %}
+        <tr>
+            <td>{{forloop.counter}}</td>
+            <td>{{vis.first_name}}</td>
+            <td>{{vis.last_name}}</td>
+            <td>{{vis.username}}</td>
+            <td>{{vis.email}}</td>
+            <td>{{vis.mob}}</td>
+            <td>{{vis.password}}</td>
+            <td><a href="{% url 'to_update' vis.pk %}">edit</a></td>
+            <td><a href="{% url 'to_delete' vis.pk %}">delete</a></td>
+        </tr>
+        {% endfor %}
+</body>
+</html>
